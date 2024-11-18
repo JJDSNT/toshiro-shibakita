@@ -1,3 +1,8 @@
+<?php
+ini_set("display_errors", 1);
+header('Content-Type: text/html; charset=iso-8859-1');
+?>
+
 <html>
 
 <head>
@@ -5,18 +10,16 @@
 </head>
 <body>
 
-<?php
-ini_set("display_errors", 1);
-header('Content-Type: text/html; charset=iso-8859-1');
 
+<?php
 
 
 echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
-$servername = "54.234.153.24";
-$username = "root";
-$password = "Senha123";
-$database = "meubanco";
+$servername = "db";
+$username = "usuario";
+$password = "senha";
+$database = "toshiro_db";
 
 // Criar conexão
 
